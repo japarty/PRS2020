@@ -1,6 +1,7 @@
 package thread;
 
 public class TwoThreads {
+    public static Long synchronizer = 0L;
     public static void main(String[] args) {
 
         Concurrency thread1 = new Concurrency(1); // create an object of class Concurrent which is a thread
